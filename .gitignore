@@ -21,3 +21,8 @@ public/
 
 # Ignore file for editors like Helix
 .ignore
+
+# IDEs...
+.vscode/
+.idea/
+
