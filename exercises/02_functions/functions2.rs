@@ -29,5 +29,5 @@ fn call_me(lines_num: i64, threads_num: u32) {
 }
 
 fn main() {
-    timeit(|| call_me(1_000_000_0, 4));
+    timeit(|| call_me(1_000, 4));
 }
