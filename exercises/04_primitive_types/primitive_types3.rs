@@ -1,8 +1,9 @@
-fn main() {
-    // TODO: Create an array called `a` with at least 100 elements in it.
-    // let a = ???
+const THRESHOLD: usize = 100;
 
-    if a.len() >= 100 {
+fn main() {
+    let a = [0; THRESHOLD + 1];
+
+    if a.len() >= THRESHOLD {
         println!("Wow, that's a big array!");
     } else {
         println!("Meh, I eat arrays like that for breakfast.");
