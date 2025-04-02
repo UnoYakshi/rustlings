@@ -1,6 +1,5 @@
 fn main() {
-    // TODO: Change the line below to fix the compiler error.
-    let x: i32;
+    let x: f64 = -10.10125;
 
-    println!("Number {x}");
+    println!("Number is {x:.4}");
 }
